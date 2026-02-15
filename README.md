@@ -1,7 +1,5 @@
 # Project-Real-Estate-Analysis
 
-# 🏠 Housing Market Analysis Dashboard
-
 ## 📌 Project Overview
 This project involves a comprehensive data analysis of the housing market using **Microsoft Power BI**. The goal of this dashboard is to visualize house market trends, Sales Performance, House type analysis and identify key factors influencing property values (such as location, square meter, and amenities).
 
