@@ -6,7 +6,10 @@
 This project involves a comprehensive data analysis of the housing market using **Microsoft Power BI**. The goal of this dashboard is to visualize house market trends, Sales Performance, House type analysis and identify key factors influencing property values (such as location, square meter, and amenities).
 
 ## 📊 Dashboard Preview
-> ![Dashboard Screenshot]("C:\Users\HP\OneDrive\Pictures\Screenshots\Screenshot 2026-02-15 164526.png")
+<img width="1377" height="777" alt="Screenshot 2026-02-15 164526" src="https://github.com/user-attachments/assets/2cea838e-708a-4d86-a642-365407902efe" />
+<img width="1376" height="773" alt="Screenshot 2026-02-15 171138" src="https://github.com/user-attachments/assets/b9e38b17-95b7-414a-a48a-3758c4a84e6c" />
+<img width="1374" height="772" alt="Screenshot 2026-02-15 171200" src="https://github.com/user-attachments/assets/aaf27553-08b5-42b5-91a7-c5716120e6f6" />
+
 
 ## 🎯 Problem Statement
 The real estate market is complex, with prices influenced by numerous variables. This project aims to answer:
