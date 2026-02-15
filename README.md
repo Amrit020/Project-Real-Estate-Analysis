@@ -13,30 +13,45 @@ This project involves a comprehensive data analysis of the housing market using 
 
 ## 🎯 Problem Statement
 The real estate market is complex, with prices influenced by numerous variables. This project aims to answer:
-- How does location affect property price?
-- What is the correlation between property size (sq ft) and price?
-- How do different amenities (e.g., parking, furnishing status) impact valuation?
+- What is the median sales price change by different region?
+- How is YOY sales growth by sales type?
+- What is sum of sales in different region, Average price per SQM by Region?
+- What is the correlation between house age and purchase price?
+- What is offer and purchase price by house type, Average inflation, interest,yield, SQM and SQM_price by house type?
 
 ## 🛠️ Tools & Technologies
 - **Tool:** Microsoft Power BI Desktop
 - **Data Transformation:** Power Query Editor
-- **Data Modeling:** Star Schema / Snowflake Schema
+- **Data Modeling:** Star Schema
 - **Calculations:** DAX (Data Analysis Expressions)
 
 ## 🔑 Key Features
-- **Interactive Slicers:** Filter data by City, Price Range, Property Type, or Number of Rooms.
-- **Geospatial Analysis:** Map visualizations showing high-value zones.
-- **Key Performance Indicators (KPIs):** Average Price, Total Volume, Average Price per Sq Ft.
-- **Trend Analysis:** Visuals depicting market movements over time (if date data is included).
+- **Interactive Slicers:** Filter data by City, Area, Sales Type, or Region.
+- **Key Performance Indicators (KPIs):** Units Sold in latest year and Quarter, Last 12 months sales, Offer vs Purchase Price, YOY sales growth by sales type , Average Price per Sqm. by region, Sales by Region, offer price to SQM price by sales type, offer and purchase by house type, average inflation,interest, yield by house type, average SQM/SQM price by house type.
+- **Trend Analysis:** Visuals depicting market movements over time.
 
 ## 📂 Dataset
 The dataset used for this analysis contains information on housing properties, including:
-- **Price:** Sale price of the property.
-- **Area:** Size in square feet.
-- **Location/City:** Geographical location.
-- **Features:** Number of bedrooms, bathrooms, stories, parking, etc.
-
-*(If you used a public dataset like Kaggle, mention it here: "Data sourced from [Kaggle Link].")*
+date - The date when the data was recorded or when the transaction took place.
+quarter -	The fiscal quarter in which the event occurred (e.g., Q1, Q2, Q3, Q4).
+house_id -	A unique identifier for each house in the dataset.
+house_type -	The type of house (e.g., detached, semi-detached, apartment, etc.).
+sales_type -	The type of sale, such as "new" or "resale" (indicates if the house is newly built or pre-owned).
+year_build -	The year the house was built.
+purchase_price -	The price at which the house was purchased.
+%_change_between_offer_and_purchase -	The percentage change in the price between the offer and the purchase price.
+no_rooms -	The number of rooms in the house.
+sqm -	The total area of the house in square meters.
+sqm_price -	The price per square meter of the house.
+address -	The street address of the property.
+zip_code -	The postal code of the property's location.
+city -	The city where the property is located, which is an urban area and part of a municipality (e.g., Copenhagen, Aarhus).
+area -	The specific district, neighborhood, or part of the city where the property is located (e.g., Vesterbro in Copenhagen).
+region -	The broader administrative region of Denmark in which the property is located (e.g., Capital Region of Denmark, Central Denmark).
+nom_interest_rate% -	The nominal interest rate on a mortgage loan for the house (expressed as a percentage).
+dk_ann_infl_rate% -	The annual inflation rate in Denmark, as a percentage.
+yield_on_mortgage_credit_bonds% -	The yield on mortgage credit bonds, expressed as a percentage.
+<img width="1583" height="507" alt="image" src="https://github.com/user-attachments/assets/456d0004-f53b-44ad-afb7-8e14511356c9" />
 
 ## 🚀 How to Run This Project
 1. **Download:** Clone this repository or download the `Housing.pbix` file.
@@ -45,12 +60,12 @@ The dataset used for this analysis contains information on housing properties, i
 4. **Interact:** Use the filters and slicers to explore the data.
 
 ## 📈 Insights & Conclusions
-*(Replace these with your actual findings)*
-- Properties in **[City A]** showed a **20% higher average price** compared to **[City B]**.
-- There is a strong positive correlation between **Price** and **Square Footage**, but the curve flattens after **X sq ft**.
-- Fully furnished houses command a **15% premium** over unfurnished units.
+- Median Sales Price has increased for 3 region and descreased for 1 region(Bornholm).
+- There are some properties where purchase price is very less as compare to offered price
+- Year over Year sales growth percentage has increased only in 1 sales type(auction), and decreased in other 3 sales type.
+- Bornholm has done least sales as compare to other regions
+- Appartment has highest average sqm price per average sqm and Villa has lowest average sqmp rice per average sqm
 
 ## 👤 Author
-**[Your Name]**
-- **LinkedIn:** [Your Profile Link]
-- **Portfolio:** [Your Portfolio Link]
+**Amrit Banyal**
+- **LinkedIn:** https://www.linkedin.com/in/amrit-banyal-59a0b924b/
